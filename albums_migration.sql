@@ -1,7 +1,6 @@
-
-
-create database if not exists codeup_test_db;
 use codeup_test_db;
+create database if not exists codeup_test_db;
+
 
 drop table if exists albums;
 
@@ -15,5 +14,5 @@ create table if not exists albums (
     primary key(id)
     );
 
-use codeup_test_db;
+
 describe albums;
